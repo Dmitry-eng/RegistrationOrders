@@ -32,7 +32,6 @@ public class UpdateMechanic extends AbstractWindowMechanic {
     @Override
     protected void accept() {
         Mechanic mechanic = new Mechanic(this.mechanic.getId(), name.getValue(), surname.getValue(), middleName.getValue(), Integer.parseInt(hourPrice.getValue()));
-        System.out.println(mechanic);
         mechanicRepository.update(mechanic);
         grid.refresh();
         setVisible(false);
