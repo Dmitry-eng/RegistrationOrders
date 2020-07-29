@@ -1,4 +1,4 @@
-	Необходимые таблицы
+	Необходимые табли
 
 CREATE TABLE Client (
     id BIGINT NOT NULL IDENTITY, 
